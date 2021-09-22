@@ -3,3 +3,39 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+    background-color: #D4A76A;
+}
+.button {
+    width: 105px;
+    height: 20px;
+    /* line-height: 20px; */
+    padding-bottom: 2px;
+    vertical-align: middle;
+    /* font-family: "Helvetica" */
+    font-size: 13px;
+    <!--font-weight: bold;
+    -->text-transform: none;
+    border: 1px solid transparent;
+    background-color: #805215;
+    color: #ffffff;
+}
+.card {
+    background-color: #ffffff;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    /* display-flex; */
+}
+.header {
+    background-color: #FFDBAA;
+    color: #553100;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
